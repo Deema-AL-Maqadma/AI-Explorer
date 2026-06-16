@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- إعدادات الصفحة -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI Quiz - AI Explorer</title>
+  <link rel="stylesheet" href="../CSS/Style.css">
+  <script src="../JS/Script.js" defer></script> <!-- ربط ملف الجافاسكربت -->
+</head>
+<body>
+
+  <!-- الهيدر -->
+  <header>
+    <div class="logo">AI Explorer</div>
+    <nav>
+      <ul>
+        <li><a href="Index.html">Home</a></li>
+        <li><a href="About.html">What is AI</a></li>
+        <li><a href="Applications.html">Applications</a></li>
+        <li><a href="Quiz.html" class="active">Test your knowledge</a></li>
+        <li><a href="Contact.html">Contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- قسم الاختبار -->
+  <main>
+    <section class="quiz">
+      <h1>Test Your AI Knowledge</h1>
+      <p>Answer the following questions to see how much you know about Artificial Intelligence.</p>
+
+      <!-- نموذج الأسئلة -->
+      <div id="quiz-container">
+        <!-- الأسئلة ستُضاف من خلال JavaScript -->
+      </div>
+
+      <!-- زر النتيجة -->
+      <button onclick="submitQuiz()">Submit Answers</button>
+      <div id="result"></div>
+    </section>
+  </main>
+
+  <!-- التذييل -->
+  <footer>
+    <p>© 2025 AI Explorer. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
